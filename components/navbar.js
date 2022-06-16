@@ -1,17 +1,17 @@
 import { Nav,Container,NavDropdown,Form,FormControl,Navbar,Button, NavLink} from "react-bootstrap";
 import style from "../components/component.module.css"
-import Logo from "../public/logopmk.png"
+import Link from "next/link";
 export default function Navigation() {
   return (
     <Navbar bg="light" expand="lg" fixed="top" className={style["nav"]}  >
         <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
             <img
               alt=""
               src="./logopmk.png"
               width="30"
               height="30"
-              href="#home"
+              href="/"
               className="d-inline-block align-top"
             />{' '}
             PMK ITERA
@@ -27,21 +27,18 @@ export default function Navigation() {
               <NavDropdown title="Tentang PMK ITERA" id="navbarScrollingDropdown">
                 
                 <NavDropdown.Item > Apa Itu PMK? </NavDropdown.Item>
-                <NavDropdown.Item href="#">Sejarah</NavDropdown.Item>
+                <NavDropdown.Item ><Link href="about">Sejarah</Link> </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Pengurusan" id="navbarScrollingDropdown">
-              {/* <Routes>
-              <Route path="pengurus" exact component={Pengurus} />
-              </Routes> */}
-                <NavDropdown.Item >Divisi Programing</NavDropdown.Item>
+                <NavDropdown.Item ><Link href="/pengurus">Divisi Programing</Link></NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Info Pmk Itera" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#">Jadwal Ibadah</NavDropdown.Item>
+                <NavDropdown.Item ><Link href="/info"> Jadwal Ibadah</Link></NavDropdown.Item>
                 <NavDropdown.Item href="#">Event</NavDropdown.Item>
 
               </NavDropdown>
               <NavDropdown title="Layanan" id="navbarScrollingDrodown">
-                <NavDropdown.Item href="#">Aspirasi & Konseling</NavDropdown.Item>
+                <NavDropdown.Item ><Link href="/layanan">Aspirasi & Konseling </Link></NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Form className="d-flex">
