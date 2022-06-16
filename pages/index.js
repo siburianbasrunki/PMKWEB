@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navigation from '../components/navbar'
 import Jumbotron from './home'
 import Content from './content'
+import Footer from '../components/footer'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,6 +16,7 @@ export default function Home() {
     <Navigation/>
     <Jumbotron/>
     <Content/>
+    <Footer/>
     
       
     </div>
