@@ -1,0 +1,26 @@
+.intro {
+    margin-top: 200px;
+}
+.content a {
+    text-decoration: none;
+    color: white;
+}
+.content a:hover {
+    text-decoration: none;
+    color: rgb(230, 154, 154);
+}
+.home {
+    height: 650px;
+
+}
+.intro-text {
+    margin-top: 300px;
+}
+@media screen and (max-width : 600px) {
+    .intro  {
+        margin-top: 60px;
+    }
+    .intro-text {
+        margin-top: 80px;
+    }
+}
