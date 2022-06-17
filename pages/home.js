@@ -1,6 +1,7 @@
 // import "./pagesatu.css";
 import { Container,Row,Col} from "react-bootstrap";
 import style from "../components/component.module.css"
+import Image from "next/image";
 // import styles from "./global.css"
 const Jumbotron = () =>{
     return(
@@ -8,7 +9,7 @@ const Jumbotron = () =>{
         <Container className="text-black text-center d-flex justify-content-center align-items-center ">
           <Row>
           <Col md={6} className={style['intro']}>
-              <img src="/logopmk.png" alt="" width={300} height={300}/>
+          <Image src='/logopmk.png' alt='' width='300' height='300'/>
             </Col>
             <Col>
             <div className={style['intro-text']}>

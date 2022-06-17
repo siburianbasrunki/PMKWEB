@@ -1,5 +1,6 @@
-import { Container,Row,Col,Card,Image } from "react-bootstrap"
+import { Container,Row,Col,Card,Image} from "react-bootstrap"
 import style from "../components/component.module.css"
+import Link from "next/link"
 const Content = () => {
     return(
         <div>
@@ -12,7 +13,7 @@ const Content = () => {
                 <Image src="/Ibadah.png" alt="ibadah" className="images" />
                 <div className="bg-dark ">
                   <div className="m-1 p-2 text-white">
-                    <Card.Title className=" text-center "><a href="#">IBADAH</a></Card.Title>
+                    <Card.Title className=" text-center "><Link href="/info/#ibadah"><a >IBADAH</a></Link></Card.Title>
                     <Card.Text className=" text-left">Shalom teman-teman! Di halaman ini, teman-teman dapat melihat dan mengakses ibadah-ibadah rutin yang biasa kami adakan tiap minggunya selama masa pembelajaran di ITERA berlangsung. Pada umumnya kami mengadakan Ibadah Jumat</Card.Text>
                   </div>
                 </div>
@@ -23,7 +24,7 @@ const Content = () => {
                 <Image src="/AcaraBesar.png" alt="acarabesar" className="images" />
                 <div className="bg-dark ">
                   <div className="m-1 p-2 text-white">
-                    <Card.Title className=" text-center"><a href="#">ACARA BESAR / EVENT</a></Card.Title>
+                    <Card.Title className=" text-center"><Link href="/info/#event"><a >Acara Besar / Event</a></Link></Card.Title>
                     <Card.Text className=" text-left">Halaman ini berisi informasi mendalam mengenai acara besar yang sedang atau akan dipersiapkan dan dilaksanakan PMK ITERA. Acara besar mencakup kegiatan-kegiatan tahunan seperti ibadah Paskah, rangkaian kegiatan Pemerimaan Mahasiswa </Card.Text>
                   </div>
                 </div>

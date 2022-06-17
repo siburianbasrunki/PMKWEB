@@ -1,16 +1,17 @@
 import { Nav,Container,NavDropdown,Form,FormControl,Navbar,Button, NavLink} from "react-bootstrap";
 import style from "../components/component.module.css"
 import Link from "next/link";
+import Image from "next/image"
 export default function Navigation() {
   return (
     <Navbar bg="light" expand="lg" fixed="top" className={style["nav"]}  >
         <Container fluid>
         <Navbar.Brand href="/">
-            <img
+            <Image
               alt=""
-              src="./logopmk.png"
-              width="30"
-              height="30"
+              src="/logopmk.png"
+              width="20"
+              height="20"
               href="/"
               className="d-inline-block align-top"
             />{' '}
@@ -26,19 +27,18 @@ export default function Navigation() {
               
               <NavDropdown title="Tentang PMK ITERA" id="navbarScrollingDropdown">
                 
-                <NavDropdown.Item > Apa Itu PMK? </NavDropdown.Item>
-                <NavDropdown.Item ><Link href="about">Sejarah</Link> </NavDropdown.Item>
+                <NavDropdown.Item className={style['link']} > <Link href="/about"><a> Apa Itu PMK?</a></Link> </NavDropdown.Item>
+                <NavDropdown.Item className={style['link']}><Link href="/about"><a>Sejarah</a></Link> </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title="Pengurusan" id="navbarScrollingDropdown">
-                <NavDropdown.Item ><Link href="/pengurus">Divisi Programing</Link></NavDropdown.Item>
-              </NavDropdown>
+              
+              <Nav.Link className={style['link']}><Link href="/pengurus" ><a>Pengurus</a></Link></Nav.Link>
               <NavDropdown title="Info Pmk Itera" id="navbarScrollingDropdown">
-                <NavDropdown.Item ><Link href="/info"> Jadwal Ibadah</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#">Event</NavDropdown.Item>
+                <NavDropdown.Item className={style['link']}><Link href="/info/#ibadah" ><a>Jadwal Ibadah</a></Link></NavDropdown.Item>
+                <NavDropdown.Item className={style['link']} ><Link href="/info/#event"><a>Event</a></Link></NavDropdown.Item>
 
               </NavDropdown>
               <NavDropdown title="Layanan" id="navbarScrollingDrodown">
-                <NavDropdown.Item ><Link href="/layanan">Aspirasi & Konseling </Link></NavDropdown.Item>
+                <NavDropdown.Item className={style['link']}><Link href="/layanan"><a>Aspirasi & Konseling </a></Link></NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Form className="d-flex">
