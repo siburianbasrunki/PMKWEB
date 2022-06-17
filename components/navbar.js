@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image"
 export default function Navigation() {
   return (
-    <Navbar bg="light" expand="lg" fixed="top" className={style["nav"]}  >
+    <Navbar bg="light" expand="lg" fixed="top" className={style["nav"]} className="shadow p-3 mb-5 bg-body" >
         <Container fluid>
         <Navbar.Brand href="/">
             <Image
@@ -33,8 +33,8 @@ export default function Navigation() {
               
               <Nav.Link className={style['link']}><Link href="/pengurus" ><a>Pengurus</a></Link></Nav.Link>
               <NavDropdown title="Info Pmk Itera" id="navbarScrollingDropdown">
-                <NavDropdown.Item className={style['link']}><Link href="/info/#ibadah" ><a>Jadwal Ibadah</a></Link></NavDropdown.Item>
-                <NavDropdown.Item className={style['link']} ><Link href="/info/#event"><a>Event</a></Link></NavDropdown.Item>
+                <NavDropdown.Item className={style['link']}><Link href="/info#ibadah" ><a>Jadwal Ibadah</a></Link></NavDropdown.Item>
+                <NavDropdown.Item className={style['link']} ><Link href="/info#event"><a>Event</a></Link></NavDropdown.Item>
 
               </NavDropdown>
               <NavDropdown title="Layanan" id="navbarScrollingDrodown">

@@ -23,7 +23,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+@media screen and (max-width : 600px) {
+  .info-bg {
+    width: 400px;
+    height: 500px;
+  }
+}
 .card {
   margin-top: 30px;
   border-radius :20px;
