@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image"
 export default function Navigation() {
   return (
-    <Navbar bg="light" expand="lg" fixed="top" className={style["nav"]} className="shadow p-3 mb-5 bg-body" >
+    <Navbar bg="light" expand="lg" fixed="top" className={style["nav shadow"]}  >
         <Container fluid>
         <Navbar.Brand href="/">
             <Image
