@@ -7,7 +7,7 @@
 }
 .info-bg {
   height: 500px;
-  width:900px;
+  width: 900px;
   margin: 0 auto;
   border-radius: 20px;
   background-image: url(../public/Ibadah.png);
@@ -16,14 +16,14 @@
 }
 .info-bg-event {
   height: 500px;
-  width:900px;
+  width: 900px;
   margin: 0 auto;
   border-radius: 20px;
   background-image: url(../public/AcaraBesar.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-@media screen and (max-width : 600px) {
+@media screen and (max-width: 600px) {
   .info-bg {
     width: 400px;
     height: 500px;
@@ -35,13 +35,13 @@
 }
 .card {
   margin-top: 30px;
-  border-radius :20px;
+  border-radius: 20px;
 }
-.card a{
+.card a {
   text-decoration: none;
   color: white;
 }
-.card a:hover{
+.card a:hover {
   color: rgb(243, 23, 23);
 }
 .main-pengurus {
