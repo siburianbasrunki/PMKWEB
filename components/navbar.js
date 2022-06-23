@@ -46,7 +46,12 @@ export default function Navigation() {
             <NavDropdown title="Layanan" id="navbarScrollingDrodown">
               <NavDropdown.Item className={style["link"]}>
                 <Link href="/layanan">
-                  <a>Aspirasi & Konseling </a>
+                  <a>Aspirasi & Konseling</a>
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item className={style["link"]}>
+                <Link href="/laporan">
+                  <a>Laporan Keuangan</a>
                 </Link>
               </NavDropdown.Item>
             </NavDropdown>
