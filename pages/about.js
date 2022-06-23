@@ -50,19 +50,19 @@ export default function about() {
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/calendar-event-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tanggal" />
+                      <img src="/calendar-event-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tanggal" />
                       Jumat, 21 Juni 2022
                     </p>
                   </Col>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/clock-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Time" />
+                      <img src="/clock-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Time" />
                       08.00 WIB
                     </p>
                   </Col>
                   <Col>
                     <a href="#" target="_blank" className="ibadah-icon">
-                      <img src="/geo-alt-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tempat" />
+                      <img src="/geo-alt-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tempat" />
                       Zoom Meeting
                     </a>
                   </Col>
@@ -71,19 +71,19 @@ export default function about() {
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/calendar-event-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tanggal" />
+                      <img src="/calendar-event-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tanggal" />
                       Jumat, 21 Juni 2022
                     </p>
                   </Col>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/clock-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Time" />
+                      <img src="/clock-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Time" />
                       08.00 WIB
                     </p>
                   </Col>
                   <Col>
                     <a href="#" target="_blank" className="ibadah-icon">
-                      <img src="/geo-alt-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tempat" />
+                      <img src="/geo-alt-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tempat" />
                       Zoom Meeting
                     </a>
                   </Col>
@@ -92,19 +92,19 @@ export default function about() {
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/calendar-event-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tanggal" />
+                      <img src="/calendar-event-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tanggal" />
                       Jumat, 21 Juni 2022
                     </p>
                   </Col>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/clock-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Time" />
+                      <img src="/clock-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Time" />
                       08.00 WIB
                     </p>
                   </Col>
                   <Col>
                     <a href="#" target="_blank" className="ibadah-icon">
-                      <img src="/geo-alt-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tempat" />
+                      <img src="/geo-alt-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tempat" />
                       Zoom Meeting
                     </a>
                   </Col>
