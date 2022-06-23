@@ -3,6 +3,7 @@ import Navigation from "../components/navbar";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Alert from "react-bootstrap/Alert";
 import aboutStyles from "../styles/about.module.css";
+import Image from "next/image";
 
 export default function layanan() {
   return (
