@@ -14,7 +14,7 @@ export default function layanan() {
           <Row>
             <Col lg={8}>
               <Card>
-                <Image src="/layanan.png" alt="Layanan" className="images" width="1024" height="512" />
+                <Image src="/layanan.png" alt="Layanan" className="images" width="600" height="300" />
                 <Card.Body>
                   <Col>
                     <Alert variant="light">

@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,15 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/layanan": [
+    "/about": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/layanan.js"
+      "static/chunks/pages/about.js"
     ],
-    "/sejarah": [
+    "/info": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/sejarah.js"
+      "static/chunks/pages/info.js"
+    ],
+    "/pengurus": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/pengurus.js"
     ]
   },
   "ampFirstPages": []
