@@ -24,6 +24,11 @@ export default function Navigation() {
                   <a>Sejarah</a>
                 </Link>{" "}
               </NavDropdown.Item>
+              <NavDropdown.Item className={style["link"]}>
+                <Link href="/visi">
+                  <a>Visi & AD/ART</a>
+                </Link>{" "}
+              </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link className={style["link"]}>
