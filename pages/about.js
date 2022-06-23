@@ -45,7 +45,7 @@ export default function about() {
               </Card>
             </Col>
             <Col lg={4}>
-              <Alert>
+              <Alert variant="light">
                 <Alert.Heading>IBADAH JUMAT</Alert.Heading>
                 <Row>
                   <Col>
