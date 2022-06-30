@@ -14,7 +14,7 @@ export default function layanan() {
           <Row>
             <Col lg={8}>
               <Card>
-                <Image src="/layanan.png" alt="Layanan" className="images" width="600" height="300" />
+                <Image src="/layanan.png" alt="Layanan" className="images" width="524" height="262" objectFit="cover" objectPosition="center" />
                 <Card.Body>
                   <Col>
                     <Alert variant="light">
@@ -49,7 +49,7 @@ export default function layanan() {
             </Col>
             <Col lg={4}>
               <Alert variant="light">
-                <Alert.Heading>IBADAH JUMAT</Alert.Heading>
+                <Alert.Heading>KEGIATAN 1</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
@@ -70,7 +70,7 @@ export default function layanan() {
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>PERSEKUTUAN LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 2</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
@@ -91,7 +91,7 @@ export default function layanan() {
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>WEEKLY MEETING LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 3</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">

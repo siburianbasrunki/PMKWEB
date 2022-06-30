@@ -13,13 +13,14 @@ export default function about() {
           <Row>
             <Col lg={8}>
               <Card>
-                <Card.Title>Tentang PMK ITERA</Card.Title>
+                <Card.Title className={aboutStyles.judul}>Tentang PMK ITERA</Card.Title>
                 <Card.Body>
                   <Col>
                     <Alert variant="light">
                       <p>
-                        Persekutuan Mahasiswa Kristen ITERA adalah komunitas mahasiswa yang bersifat interdenominasi dan multietnis, serta berdasar pada iman dalam Yesus Kristus. Iman inilah yang memimpin kami untuk melayani dan bersaksi
-                        tentang Dia di lingkungan Institut Teknologi Sumatera sebagai Juruselamat dan Tuhan atas segala aspek kehidupan.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente repudiandae deserunt perspiciatis similique eaque, quasi dicta asperiores. Voluptatibus, culpa debitis eius totam aspernatur dolores? Velit eveniet
+                        nulla temporibus cumque dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente repudiandae deserunt perspiciatis similique eaque, quasi dicta asperiores. Voluptatibus, culpa debitis eius totam
+                        aspernatur dolores? Velit eveniet nulla temporibus cumque dolor.
                       </p>
                       <Alert.Heading>Komunitas, Bukan Organisasi</Alert.Heading>
                       <p>
@@ -46,7 +47,7 @@ export default function about() {
             </Col>
             <Col lg={4}>
               <Alert variant="light">
-                <Alert.Heading>IBADAH JUMAT</Alert.Heading>
+                <Alert.Heading>KEGIATAN 1</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
@@ -67,7 +68,7 @@ export default function about() {
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>PERSEKUTUAN LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 2</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
@@ -88,7 +89,7 @@ export default function about() {
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>WEEKLY MEETING LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 3</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">

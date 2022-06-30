@@ -13,7 +13,7 @@ export default function visi() {
           <Row>
             <Col lg={8}>
               <Card>
-                <Card.Title>Visi & AD/ART</Card.Title>
+                <Card.Title className={aboutStyles.judul}>Visi & AD/ART</Card.Title>
                 <Card.Body>
                   <Col>
                     <Alert variant="light">
@@ -36,7 +36,7 @@ export default function visi() {
             </Col>
             <Col lg={4}>
               <Alert variant="light">
-                <Alert.Heading>IBADAH JUMAT</Alert.Heading>
+                <Alert.Heading>KEGIATAN 1</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
@@ -57,7 +57,7 @@ export default function visi() {
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>PERSEKUTUAN LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 2</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
@@ -78,7 +78,7 @@ export default function visi() {
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>WEEKLY MEETING LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 3</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">

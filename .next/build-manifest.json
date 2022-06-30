@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/info.js"
     ],
-    "/pengurus": [
+    "/layanan": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/pengurus.js"
+      "static/chunks/pages/layanan.js"
     ]
   },
   "ampFirstPages": []

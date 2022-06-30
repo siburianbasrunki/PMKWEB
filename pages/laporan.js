@@ -35,7 +35,7 @@ export default function laporan() {
             </Col>
             <Col lg={4}>
               <Alert variant="light">
-                <Alert.Heading>IBADAH JUMAT</Alert.Heading>
+                <Alert.Heading>KEGIATAN 1</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
@@ -56,7 +56,7 @@ export default function laporan() {
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>PERSEKUTUAN LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 2</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
@@ -77,7 +77,7 @@ export default function laporan() {
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>WEEKLY MEETING LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 3</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
