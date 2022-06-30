@@ -13,13 +13,14 @@ export default function about() {
           <Row>
             <Col lg={8}>
               <Card>
-                <Card.Title>Tentang PMK ITERA</Card.Title>
+                <Card.Title className={aboutStyles.judul}>Tentang PMK ITERA</Card.Title>
                 <Card.Body>
                   <Col>
                     <Alert variant="light">
                       <p>
-                        Persekutuan Mahasiswa Kristen ITERA adalah komunitas mahasiswa yang bersifat interdenominasi dan multietnis, serta berdasar pada iman dalam Yesus Kristus. Iman inilah yang memimpin kami untuk melayani dan bersaksi
-                        tentang Dia di lingkungan Institut Teknologi Sumatera sebagai Juruselamat dan Tuhan atas segala aspek kehidupan.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente repudiandae deserunt perspiciatis similique eaque, quasi dicta asperiores. Voluptatibus, culpa debitis eius totam aspernatur dolores? Velit eveniet
+                        nulla temporibus cumque dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente repudiandae deserunt perspiciatis similique eaque, quasi dicta asperiores. Voluptatibus, culpa debitis eius totam
+                        aspernatur dolores? Velit eveniet nulla temporibus cumque dolor.
                       </p>
                       <Alert.Heading>Komunitas, Bukan Organisasi</Alert.Heading>
                       <p>
@@ -45,66 +46,66 @@ export default function about() {
               </Card>
             </Col>
             <Col lg={4}>
-              <Alert>
-                <Alert.Heading>IBADAH JUMAT</Alert.Heading>
+              <Alert variant="light">
+                <Alert.Heading>KEGIATAN 1</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/calendar-event-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tanggal" />
+                      <img src="/calendar-event-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tanggal" />
                       Jumat, 21 Juni 2022
                     </p>
                   </Col>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/clock-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Time" />
+                      <img src="/clock-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Time" />
                       08.00 WIB
                     </p>
                   </Col>
                   <Col>
                     <a href="#" target="_blank" className="ibadah-icon">
-                      <img src="/geo-alt-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tempat" />
+                      <img src="/geo-alt-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tempat" />
                       Zoom Meeting
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>PERSEKUTUAN LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 2</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/calendar-event-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tanggal" />
+                      <img src="/calendar-event-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tanggal" />
                       Jumat, 21 Juni 2022
                     </p>
                   </Col>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/clock-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Time" />
+                      <img src="/clock-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Time" />
                       08.00 WIB
                     </p>
                   </Col>
                   <Col>
                     <a href="#" target="_blank" className="ibadah-icon">
-                      <img src="/geo-alt-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tempat" />
+                      <img src="/geo-alt-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tempat" />
                       Zoom Meeting
                     </a>
                   </Col>
                 </Row>
-                <Alert.Heading>WEEKLY MEETING LPMI</Alert.Heading>
+                <Alert.Heading>KEGIATAN 3</Alert.Heading>
                 <Row>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/calendar-event-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tanggal" />
+                      <img src="/calendar-event-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tanggal" />
                       Jumat, 21 Juni 2022
                     </p>
                   </Col>
                   <Col>
                     <p className="ibadah-icon">
-                      <img src="/clock-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Time" />
+                      <img src="/clock-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Time" />
                       08.00 WIB
                     </p>
                   </Col>
                   <Col>
                     <a href="#" target="_blank" className="ibadah-icon">
-                      <img src="/geo-alt-fill.svg" width="30" height="30" className="d-inline-block align-top" alt="Tempat" />
+                      <img src="/geo-alt-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tempat" />
                       Zoom Meeting
                     </a>
                   </Col>
