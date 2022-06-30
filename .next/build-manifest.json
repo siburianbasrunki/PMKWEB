@@ -25,20 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about": [
+    "/laporan": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about.js"
-    ],
-    "/info": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/info.js"
+      "static/chunks/pages/laporan.js"
     ],
     "/layanan": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/layanan.js"
+    ],
+    "/pengurus": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/pengurus.js"
     ]
   },
   "ampFirstPages": []
