@@ -36,18 +36,21 @@ export default function Navigation() {
                 <a>Pengurus</a>
               </Link>
             </Nav.Link>
-            <NavDropdown title="Info Pmk Itera" id="navbarScrollingDropdown">
-              <NavDropdown.Item className={style["link"]}>
-                <Link href="/info#ibadah">
-                  <a>Jadwal Ibadah</a>
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item className={style["link"]}>
-                <Link href="/info#event">
-                  <a>Event</a>
-                </Link>
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link className={style["link"]}>
+              <Link href="/info">
+                <a>Info & Content PMK</a>
+              </Link>
+            </Nav.Link>
+            <Nav.Link className={style["link"]}>
+              <Link href="/ibadah">
+                <a>Ibadah</a>
+              </Link>
+            </Nav.Link>
+            <Nav.Link className={style["link"]}>
+              <Link href="/event">
+                <a>Event PMK</a>
+              </Link>
+            </Nav.Link>
             <NavDropdown title="Layanan" id="navbarScrollingDrodown">
               <NavDropdown.Item className={style["link"]}>
                 <Link href="/layanan">
