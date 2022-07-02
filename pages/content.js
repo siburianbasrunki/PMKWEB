@@ -8,7 +8,7 @@ const Content = () => {
           <br />
           <br />
           <Row>
-            <Col md={4} className="" id="">
+            <Col md={3} className="" id="">
               <Card className="bg-white  ">
                 <Image src="/Ibadah.png" alt="ibadah" className="images" />
                 <div className="bg-dark ">
@@ -19,7 +19,7 @@ const Content = () => {
                 </div>
               </Card>
             </Col>
-            <Col md={4} className="">
+            <Col md={3} className="">
               <Card className="bg-white  ">
                 <Image src="/AcaraBesar.png" alt="acarabesar" className="images" />
                 <div className="bg-dark ">
@@ -30,7 +30,7 @@ const Content = () => {
                 </div>
               </Card>
             </Col>
-            <Col md={4} className="">
+            <Col md={3} className="">
               <Card className="bg-white  ">
                 <Image src="/layanan.png" alt="layanan" className="images" />
                 <div className="bg-dark ">
@@ -40,6 +40,19 @@ const Content = () => {
                   </div>
                 </div>
               </Card>
+            </Col>
+            <Col md={3} className={style['sidebar']}>
+              <h3 className="text-center align-center">Update Content</h3>
+              <div className={style['update-content']}>
+                <div className={style['update']}>
+                  <Image src="/layanan.png" className={style['image']}/>
+                  <p>Lorem Ipsum is simply dummy text of the printing and 
+                  typesetting industry</p>
+                  <Link href="#">
+                  <a>Selengkapnya...</a>
+                  </Link>
+                </div>
+              </div>
             </Col>
           </Row>
         </Container>
