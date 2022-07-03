@@ -12,6 +12,7 @@ export default function layanan() {
       <div className={aboutStyles.about}>
         <Container>
           <Row>
+            <Col></Col>
             <Col lg={8}>
               <Card>
                 <Image src="/layanan.png" alt="Layanan" className="images" width="524" height="262" objectFit="cover" objectPosition="center" />
@@ -47,73 +48,7 @@ export default function layanan() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4}>
-              <Alert variant="light">
-                <Alert.Heading>KEGIATAN 1</Alert.Heading>
-                <Row>
-                  <Col>
-                    <p className="ibadah-icon">
-                      <img src="/calendar-event-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tanggal" />
-                      Jumat, 21 Juni 2022
-                    </p>
-                  </Col>
-                  <Col>
-                    <p className="ibadah-icon">
-                      <img src="/clock-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Time" />
-                      08.00 WIB
-                    </p>
-                  </Col>
-                  <Col>
-                    <a href="#" target="_blank" className="ibadah-icon">
-                      <img src="/geo-alt-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tempat" />
-                      Zoom Meeting
-                    </a>
-                  </Col>
-                </Row>
-                <Alert.Heading>KEGIATAN 2</Alert.Heading>
-                <Row>
-                  <Col>
-                    <p className="ibadah-icon">
-                      <img src="/calendar-event-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tanggal" />
-                      Jumat, 21 Juni 2022
-                    </p>
-                  </Col>
-                  <Col>
-                    <p className="ibadah-icon">
-                      <img src="/clock-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Time" />
-                      08.00 WIB
-                    </p>
-                  </Col>
-                  <Col>
-                    <a href="#" target="_blank" className="ibadah-icon">
-                      <img src="/geo-alt-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tempat" />
-                      Zoom Meeting
-                    </a>
-                  </Col>
-                </Row>
-                <Alert.Heading>KEGIATAN 3</Alert.Heading>
-                <Row>
-                  <Col>
-                    <p className="ibadah-icon">
-                      <img src="/calendar-event-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tanggal" />
-                      Jumat, 21 Juni 2022
-                    </p>
-                  </Col>
-                  <Col>
-                    <p className="ibadah-icon">
-                      <img src="/clock-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Time" />
-                      08.00 WIB
-                    </p>
-                  </Col>
-                  <Col>
-                    <a href="#" target="_blank" className="ibadah-icon">
-                      <img src="/geo-alt-fill.svg" width="15" height="15" className="d-inline-block align-top" alt="Tempat" />
-                      Zoom Meeting
-                    </a>
-                  </Col>
-                </Row>
-              </Alert>
-            </Col>
+            <Col></Col>
           </Row>
         </Container>
       </div>
